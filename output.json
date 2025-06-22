@@ -1,0 +1,70 @@
+{
+  "company_details": {
+    "cin": "U74999KA2016PTC095981",
+    "name": "ALUPA FOODS PRIVATE LIMITED",
+    "registered_office": "DHANYALAXMI RICE MILL,\r5-110A, PUTTUR,\rUDUPI\rUdupi\rKarnataka\r576105",
+    "email": "mail@alupafoods.in",
+    "rotation_rule_status": false
+  },
+  "auditor_details": {
+    "pan": "AABFM8893Q",
+    "name": "MALLYA & MALLYA",
+    "membership_number": "001955S",
+    "address_line1": "29/2, 1st Floor, Parijatha Complex",
+    "address_line2": "Race Course Road",
+    "city": "Bangalore",
+    "state": "KA",
+    "pincode": "560001",
+    "email": "mallyaandmallya@gmail.com"
+  },
+  "appointment_details": {
+    "joint_auditors": false,
+    "period_from": "01/04/2022",
+    "period_to": "31/03/2027",
+    "duration_years": "5",
+    "within_legal_limits": true,
+    "agm_date": "26/09/2022",
+    "appointment_date": "26/09/2022"
+  },
+  "attachments": [
+    "Consent signed.pdf",
+    "Resolution for appointment of Auditor Signed.pdf",
+    "Intimation Letter Signed.pdf",
+    "Acceptance signed.pdf"
+  ],
+  "previous_auditors": [
+    {
+      "auditor_tenure": "6"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "24/08/2016",
+      "end_date": "31/03/2017"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "01/04/2017",
+      "end_date": "31/03/2018"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "01/04/2018",
+      "end_date": "31/03/2019"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "01/04/2019",
+      "end_date": "31/03/2020"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "01/04/2020",
+      "end_date": "31/03/2021"
+    },
+    {
+      "auditor_type": "Auditor's Firm",
+      "start_date": "01/04/2021",
+      "end_date": "31/03/2022"
+    }
+  ]
+}
