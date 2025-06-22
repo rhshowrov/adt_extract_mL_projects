@@ -45,6 +45,10 @@ uv pip install -r pyproject.toml
 
 * [`pymupdf`](https://pypi.org/project/PyMuPDF/) – for parsing PDFs
 * [`openai`](https://pypi.org/project/openai/) – for AI-powered processing
+* [`tesseract`](https://github.com/UB-Mannheim/tesseract/wiki) – for windows Tesseract installer
+* pdf2image
+* pillow
+* pytesseract
 
 ---
 
@@ -58,11 +62,18 @@ uv pip install -r pyproject.toml
 ```bash
 uv run extractor.py
 ```
-
-2. **Run `summary.py`** to generate a summary using OpenAI
+2.**Run `bonus.py`** to generate image and text file from pdf attachment file
+```bash
+uv run bonus.py
+```
+3. **Run `update_json.py`** to update the json structure with new value
+```bash
+uv run update_json.py
+```
+4. **Run `summary.py`** to generate a summary using OpenAI
    This will:
 
-   * Load data from `output.json`
+   * Load data from `updated_output.json`
    * Save the summary to `summary.txt`
 
 ```bash
@@ -71,16 +82,15 @@ uv run summary.py
 
 ---
 
-## 📁 Output Files
+## 📁 Final Output Files
 
 | File Name     | Description                                |
 | ------------- | ------------------------------------------ |
-| `output.json` | Contains raw extracted PDF data            |
+| `updated_output.json` | Contains valuable extracted PDF data            |
 | `summary.txt` | AI-generated summary of the extracted data |
 
 ---
 
-Let me know if you'd like me to write sample `extractor.py` and `summarize.py` code blocks too.
 
 
 ## 📄 License
