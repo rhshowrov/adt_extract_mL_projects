@@ -1,4 +1,4 @@
-import pymupdf  # PyMuPDF
+import pymupdf  
 import os
 import json
 
@@ -103,7 +103,7 @@ if len(doc) >= 2:
 # 3. Save extracted data to JSON
 save_to_json(structured_data, "output.json")
 
-# 4. Extract embedded files with .pdf extension
+#4. Extract embedded files with .pdf extension
 output_dir = "output_embedded"
 os.makedirs(output_dir, exist_ok=True)
 file_count = 0
@@ -115,7 +115,7 @@ for i in range(doc.embfile_count()):
             info = doc.embfile_info(i)
             original_name = info.get("filename", f"file_{i}")
         except:
-            original_name = f"file_{i}"
+            original_name = f"Acceptance signed"
 
         base_name = os.path.splitext(original_name)[0]
         final_name = f"{base_name}.pdf"
